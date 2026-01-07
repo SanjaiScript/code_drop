@@ -77,44 +77,6 @@ git clone https://github.com/ArjunVasavan/code_drop
 
 <br/><br/>
 
-<!-- Features Section -->
-<div align="center">
-
-## ✨ Features
-
-</div>
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/File%20Folder.png" width="60" height="60" />
-<br/><br/>
-<b>All File Types</b>
-<br/>
-<sub>Share any files or projects</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Speed%20Train.png" width="60" height="60" />
-<br/><br/>
-<b>Quick Access</b>
-<br/>
-<sub>Clone and use instantly</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Locked.png" width="60" height="60" />
-<br/><br/>
-<b>MIT Licensed</b>
-<br/>
-<sub>Open source & free</sub>
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/><br/>
 
 <!-- Footer Section -->
 <div align="center">
