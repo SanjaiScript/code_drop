@@ -35,8 +35,8 @@
 ```
 ╔═══════════════════════════════════════════════════════════════════════╗
 ║                                                                       ║
-║    Temporary repository for sharing files, folders, and projects.    ║
-║    Files may be added, replaced, or removed at any time.             ║
+║    Temporary repository for sharing files, folders, and projects.     ║
+║    Files may be added, replaced, or removed at any time.              ║
 ║                                                                       ║
 ╚═══════════════════════════════════════════════════════════════════════╝
 ```
@@ -45,11 +45,6 @@
 </tr>
 </table>
 
-<br/>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="250">
-</div>
 
 <br/>
 
