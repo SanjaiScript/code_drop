@@ -1,0 +1,224 @@
+\documentclass[a4paper,11pt]{article}
+
+%-------------------- PACKAGES --------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{textcomp}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+%\usepackage{fontawesome}
+
+
+
+%-------------------- COLORS --------------------
+\definecolor{heading}{rgb}{0,0,0}
+
+%-------------------- SECTION FORMAT --------------------
+\titleformat{\section}
+  {\large\bfseries\color{heading}}
+  {}
+  {0pt}
+  {\uppercase}
+  [\titlerule]
+
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=1em}
+\renewcommand{\baselinestretch}{1.1}
+
+%-------------------- DOCUMENT START --------------------
+\begin{document}
+\pagestyle{empty}
+
+%-------------------- HEADER --------------------
+\begin{center}
+    {\Huge \textbf{Dheeraj H K}}\\[4pt]
+    \faEnvelope \, \href{mailto:dheerajhk578@gmail.com}{dheerajhk578@gmail.com} \,|\, 
+    \faPhone \, +91 7483017167 \,|\, 
+    \faMapMarker \, Bengaluru, India\\
+    \faGithub \, \href{https://github.com/dheerajhk578}{github.com/dheerajhk578} \,|\, 
+    \faLinkedin \, \href{https://www.linkedin.com/in/dheeraj-h-k-71b43a228}{linkedin.com/in/dheeraj-h-k-71b43a228}
+\end{center}
+
+
+\vspace{0.3cm}
+
+%-------------------- SUMMARY --------------------
+\section*{Profile Summary}
+Motivated and detail-oriented student with hands-on experience in C programming, embedded systems, and IoT development. Passionate about solving technical problems and contributing to efficient, real-world embedded solutions through strong programming and hardware integration skills.
+%----------------------WORK EXPERIENCE--------------------------
+\section*{WORK EXPERIENCE}
+
+\begin{itemize}
+    \item Currently undergoing technical training program – \textbf{Advanced Embedded Systems Course} at \textbf{Emertxe Information Technologies}, Bangalore.  
+    \item Government of India certified program, aligned with \textbf{Skill India / NSDC} under \textbf{Electronics Sector Skill Council of India (ESSCI)} – Embedded Software Engineer QP ELE/Q1501.
+\end{itemize}
+
+
+
+
+%-------------------- SKILLS --------------------
+\section*{TECHNICAL SKILLS}
+
+\begin{itemize}
+    \item \textbf{Programming Languages:}
+    \begin{itemize}
+        \item Shell Scripting
+        \item Advanced C
+        \item C++
+       % \item Data Structures
+    \end{itemize}
+
+    \item \textbf{System Programming:}
+    \begin{itemize}
+        \item Linux Kernel System Calls
+        \item IPC Mechanisms – Pipe, FIFO, Shared Memory
+        \item Network Programming using TCP and UDP Sockets
+        \item pThreads – Multi-thread Programming
+    \end{itemize}
+
+    \item \textbf{Embedded Platforms:}
+    \begin{itemize}
+        \item Linux (Fedora / Ubuntu)
+    \end{itemize}
+\end{itemize}
+%------------COURSE WORK--------------------------
+\section*{COURSE WORK}
+
+\begin{itemize}
+    \item Microprocessor
+    \item Digital Electronics
+    \item Digital Signal Processing
+    \item Embedded Systems
+    \item Microcontrollers
+\end{itemize}
+
+%-------------------- EDUCATION --------------------
+\section*{Education}
+\textbf{B.E. in Electronics and Communication Engineering} \hfill 2021 -- 2025 \\
+Kalpataru Institute of Technology, Tiptur (CGPA: 7.86)
+
+\medskip
+\textbf{Pre-University} \hfill 2019 -- 2021\\
+K V R Maruthi PU College, Tumkuru (87.66\%)
+
+\medskip
+\textbf{SSLC} \hfill 2018 -- 2019\\
+Badarikashrama Vidya Shala, Turuvekere (82.56\%)
+%---------------CONTRIBUTIONS & ACHIEVEMENTS----------------
+\section*{CONTRIBUTIONS AND ACHIEVEMENTS}
+\hfill \href{https://github.com/dheerajhk578/Spot-Awards.git}{\faGithub}
+\begin{itemize}
+    \item Awarded \textbf{Student Spot Award} by Emertxe Information Technologies for showing exceptional enthusiasm and strong inclination towards learning the C programming module.
+    \item Recognized for \textbf{maintaining 100\% attendance} in the C module at Emertxe, demonstrating discipline, commitment, and consistency.
+    \item Successfully completed multiple system-level and embedded projects including MiniShell, LSB Image Steganography, Lexical Analyzer, and IoT-based applications.
+    \item Played a key role in team projects by handling critical modules and debugging complex issues.
+    \item Consistently appreciated by mentors for dedication, learning attitude, and continuous technical growth.
+\end{itemize}
+
+
+
+
+
+%-------------------- PROJECTS --------------------
+\section*{Projects}
+
+\textbf{MiniShell – Interactive Unix-like Shell} \hfill \href{https://github.com/dheerajhk578/MiniShell}{\faGithub} \\
+\textbf{Project Brief:} Developed a custom Unix-like command line interpreter that allows users to execute built-in and external commands. The shell supports process creation, input/output redirection, piping, background execution, and signal handling. It parses user input, tokenizes commands, and manages multiple processes using Linux system calls. \\
+\textbf{Technologies Used:} C Programming, Linux System Programming, POSIX System Calls (fork, exec, wait, pipe, dup2), File I/O, Signal Handling, Makefile \\
+\textbf{Key Challenges \& Learnings:}
+\begin{itemize}
+    \item Faced challenges in parsing and tokenizing user input, which were resolved using efficient string handling techniques.
+    \item Implemented piping and I/O redirection by managing file descriptors using \texttt{dup2()} and \texttt{pipe()}.
+    \item Learned to handle foreground and background processes using \texttt{fork()}, \texttt{exec()}, and \texttt{wait()}.
+    \item Implemented signal handling for \texttt{SIGINT}, \texttt{SIGTSTP}, and \texttt{SIGCHLD} to manage job control.
+    \item Debugged segmentation faults and process synchronization issues, gaining strong understanding of Linux process management.
+\end{itemize}
+
+\textbf{Lexical Analyzer} \hfill \href{https://github.com/dheerajhk578/Lixical-Analyzer}{\faGithub} \\
+\textbf{Project Brief:} Designed and developed a lexical analyzer to identify tokens, keywords, operators, identifiers, and constants from a given source code. The program scans the input file character by character and classifies tokens according to predefined rules. \\
+\textbf{Technologies Used:} C Programming, File Handling, Data Structures, String Manipulation \\
+\textbf{Key Challenges \& Learnings:}
+\begin{itemize}
+    \item Understood the phases of compiler design and the role of lexical analysis.
+    \item Faced challenges in token classification, which were resolved by implementing proper conditional logic.
+    \item Gained strong knowledge of string parsing and pattern recognition.
+\end{itemize}
+
+\textbf{LSB Image Steganography} \hfill \href{https://github.com/dheerajhk578/LSB-Steganography-in-C}{\faGithub} \\
+\textbf{Project Brief:} Implemented image steganography using the Least Significant Bit (LSB) technique to hide secret text data inside a BMP image without altering its visual quality. The decoding process retrieves the hidden data bit by bit from the image. \\
+\textbf{Technologies Used:} Embedded C, File Operations, Pointers, Bitwise Operations, Command Line Arguments \\
+\textbf{Key Challenges \& Learnings:}
+\begin{itemize}
+    \item Understood BMP image format and pixel structure through literature study.
+    \item Faced challenges in bitwise manipulation during embedding and extraction of data.
+    \item Learned how to preserve image quality while hiding information.
+\end{itemize}
+
+\textbf{Metro Ticketing System} \hfill \href{https://github.com/dheerajhk578/Metro-Ticketing-System}{\faGithub} \\
+\textbf{Project Brief:} Developed a console-based metro ticketing system to book tickets, calculate fare, generate tickets, and maintain passenger records. The system supports multiple routes and fare calculation based on distance. \\
+\textbf{Technologies Used:} C Programming, Structures, File Handling, Conditional Statements \\
+\textbf{Key Challenges \& Learnings:}
+\begin{itemize}
+    \item Designed data structures to store passenger and ticket information.
+    \item Implemented fare calculation logic based on route distance.
+    \item Improved understanding of real-time application flow and user interaction.
+\end{itemize}
+
+\textbf{Address Book} \hfill \href{https://github.com/dheerajhk578/Address-Book}{\faGithub} \\
+\textbf{Project Brief:} Developed an address book application to store, search, modify, and delete contact details such as name, phone number, and email address using file storage. \\
+\textbf{Technologies Used:} C Programming, File I/O, Structures, Pointers \\
+\textbf{Key Challenges \& Learnings:}
+\begin{itemize}
+    \item Implemented efficient search and update operations on stored records.
+    \item Faced challenges in file handling and data persistence.
+    \item Gained hands-on experience in struct-based data management.
+\end{itemize}
+
+
+\section*{ACADEMIC PROJECT}
+
+\textbf{IoT Based Smart Irrigation System} \\
+\textbf{Project Brief:} Developed an IoT-based smart irrigation system to automate water supply to crops based on soil moisture levels. The system continuously monitors soil conditions using sensors and controls the water pump accordingly to optimize water usage. \\
+\textbf{Technologies Used:} Arduino, IoT Sensors, Embedded C, GSM/Wi-Fi Module \\
+\textbf{Key Challenges \& Learnings:}
+\begin{itemize}
+    \item Interfaced soil moisture sensors and calibrated them for accurate readings.
+    \item Implemented automated control logic to turn the water pump ON/OFF based on threshold values.
+    \item Gained hands-on experience in sensor interfacing and real-time data monitoring.
+\end{itemize}
+\textbf{LPG Gas Leakage Detection System} \\
+\textbf{Project Brief:} Designed a safety system to detect LPG gas leakage using gas sensors and trigger an alert mechanism. The system provides audio-visual alerts and can notify users to prevent accidents. \\
+\textbf{Technologies Used:} Arduino, Gas Sensor (MQ Series), Embedded C, Buzzer, LCD Display \\
+\textbf{Key Challenges \& Learnings:}
+\begin{itemize}
+    \item Interfaced gas sensors and handled analog signal processing.
+    \item Implemented alert mechanisms using buzzer and display modules.
+    \item Learned safety-critical system design and real-time response handling.
+\end{itemize}
+
+
+
+%-------------------- INTERNSHIP --------------------
+\section{Internship}
+\textbf{Skill Enhancement Courses:} MS Excel (Basic to Advanced), Introduction to Digital Marketing, Social Media Marketing, Leadership and Management, Computer Programming with C.\hfill \href{https://github.com/dheerajhk578/Certificates.git}{\faGithub}
+ 
+
+\textbf{Key Learnings \& Outcomes:}
+\begin{itemize}
+    \item Gained strong foundation in C programming, logical thinking, and problem-solving skills.
+    \item Learned data handling, analysis, and reporting using MS Excel.
+    \item Understood digital and social media marketing strategies and audience engagement techniques.
+    \item Developed leadership, communication, and team management skills.
+    \item Improved professional effectiveness, time management, and teamwork abilities.
+\end{itemize}
+
+
+
+
+
+\end{document}
